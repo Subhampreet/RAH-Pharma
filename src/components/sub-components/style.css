@@ -1,0 +1,236 @@
+.nav-item {
+    align-self: center;
+    text-decoration: none;
+    
+    background-color:white;
+    color: black; 
+    }
+    
+    .nav-item:hover {
+    color: #00afb5; 
+    border-bottom: 1.2px solid #00afb5;
+
+    }
+    .btn {
+        align-self: center;
+        text-decoration: none;
+        font-family: 'Raleway', sans-serif;
+        background-color:black;
+        color: white; 
+        border-radius: 10px;
+        }
+        
+        .btn:hover {
+            background-color: #00afb5; 
+            border-color: #00afb5;
+        }
+
+        .loginBox {
+            text-align: end;
+            position: relative;
+            padding: 20px;
+            background-color: white;
+            align-self: center;
+            justify-content: center;
+            align-content:center;
+            font-family: 'Raleway', sans-serif;
+
+          }
+          
+          .register-photo {
+            background: #f1f7fc;
+        }
+        
+        .register-photo .image-holder {
+            display: table-cell;
+            width: auto;
+            background: url("../../assets/img/hero.png");;
+            background-size: cover
+        }
+        
+        .register-photo .form-container {
+            display: table;
+            width: 100%;
+            box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1)
+        }
+        
+        .register-photo form {
+            display: table-cell;
+            width: 50%;
+            background-color: #ffffff;
+            padding: 40px 60px;
+            color: #505e6c
+        }
+        
+        @media (max-width:991px) {
+            .register-photo form {
+                padding: 40px;
+                width: 100%;
+                line-break: normal;
+
+
+            }
+            .image-holder {
+                width: 100%;
+                line-break: normal;
+            }
+         
+        }
+        @media (max-width:1401px) {
+           
+            .testimonialNew{
+                display: none;
+            }
+        }
+        
+        .register-photo form h2 {
+            font-size: 24px;
+            line-height: 1.5;
+            margin-bottom: 30px
+        }
+        
+        .register-photo form .form-control {
+            background: transparent;
+            border: none;
+            border-bottom: 1px solid #dfe7f1;
+            border-radius: 0;
+            box-shadow: none;
+            outline: none;
+            color: inherit;
+            text-indent: 0px;
+            height: 40px
+        }
+        
+        .register-photo form .form-check {
+            font-size: 13px;
+            line-height: 20px
+        }
+        
+        .register-photo form .btn-primary {
+            background: green;
+            border: none;
+            border-radius: 4px;
+            padding: 11px;
+            box-shadow: none;
+            margin-top: 35px;
+            text-shadow: none;
+            outline: none !important
+        }
+        
+        .register-photo form .btn-primary:hover,
+        .register-photo form .btn-primary:active {
+            background: green
+        }
+        
+        .register-photo form .btn-primary:active {
+            transform: translateY(1px)
+        }
+        
+        .register-photo form .already {
+            display: block;
+            text-align: center;
+            font-size: 12px;
+            color: #6f7a85;
+            opacity: 0.9;
+            text-decoration: none
+        }
+.landing-btn{
+    background-color: #00ACB2 !important;
+    width: 410px;
+    height: 60px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+@media (max-width:991px) {
+    .col-md-6{
+        padding-top: 0px !important;
+    }
+
+    .card{
+        width: 100% !important;
+        margin-left: 0px !important;
+    }
+    .landing-btn{
+        width: 95%;
+    }
+}
+
+.form-control{
+    background: #ffffff !important;
+    width: 95% !important;
+    height: 62px !important;
+    border-radius: 16px !important;
+}
+
+.adBtn{
+    /* Auto Layout */
+    display: inline-block;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 32px;
+    color: #00ACB2;
+    /* Default / White */
+    font-family: 'Raleway', sans-serif;
+
+    background: #FFFFFF;
+    border-radius: 16px;
+}
+.adBtn:hover{
+    /* Auto Layout */
+    display: inline-block;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 32px;
+    color: #00ACB2;
+    /* Default / White */
+
+    background: #FFFFFF;
+    border-radius: 16px;   
+}
+.typography{
+    font-family: 'Raleway', sans-serif;
+    font-size: medium;
+}
+.typographySmall{
+    font-family: 'Raleway', sans-serif;
+    font-size: small;
+}
+.aclass{
+    font-family: 'Raleway', sans-serif;
+}
+
+.subscribe{
+    display: flex;
+    justify-content: space-between;
+}
+
+i{
+    margin-top: -5px;
+}
+
+.sub-form{
+    background: transparent !important;
+    height: 40px !important;
+    width: 85% !important;
+}
+.spanHeader{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+.liitem{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+
+}
+.sub-title-procedure{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: bold;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,67 @@
+.footer-link{
+    color: #D9DBE1;
+}
+
+.col-md-2,.col-md-4{
+    padding-top: 20px;
+}
+
+h6{ font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 30px;
+}
+input{
+    font-family: 'Raleway', sans-serif;
+    background-color: #D9DBE1 !important;
+    width: 70% !important;
+}
+
+.adbtn{
+    display: inline-block;
+    border-radius: 10px;
+    color: #00ACB2;
+    background-color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+}
+
+h1{ font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 32px;
+}
+
+p{font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.title{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.sub-title{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.testimonial-heading{
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.scrolling-wrapper{
+    overflow-x: auto;
+}
