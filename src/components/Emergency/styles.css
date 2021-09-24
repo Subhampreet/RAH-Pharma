@@ -1,4 +1,31 @@
-.nav-item {
+.head-text {
+    position: relative;
+ }
+.search{
+    left: 150px;
+    top: 20px;
+ }
+ .text-on-image{
+    position: absolute;
+    width: 650px;
+    height: 115px;
+    left: 300px;
+    top: 40px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 56px;
+    text-align: center;
+letter-spacing: -0.01em;
+font-feature-settings: 'salt' on, 'liga' off;
+
+/* Default / White */
+
+color: #FFFFFF;
+ }
+
+ .nav-item {
     align-self: center;
     text-decoration: none;
     

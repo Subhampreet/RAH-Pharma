@@ -42,9 +42,10 @@ const rows = [
 
 export default function CustomizedTables() {
   return (
+    <>
+    <h2 style = {{ paddingTop: '60px', paddingLeft: '20px' }}><b>Emergency Services</b></h2>
     <TableContainer component={Paper}>
       <Table sx={{ minWidth: 700 }} aria-label="customized table">
-        <TableHead>
           <TableRow>
             <StyledTableCell align="center">Organization Name</StyledTableCell>
             <StyledTableCell align="center">Category</StyledTableCell>
@@ -52,7 +53,6 @@ export default function CustomizedTables() {
             <StyledTableCell align="center">Distance Radius&nbsp;(km)</StyledTableCell>
             <StyledTableCell align="center">Ambulance Number</StyledTableCell>
           </TableRow>
-        </TableHead>
         <TableBody>
           {rows.map((row) => (
             <StyledTableRow key={row.name}>
@@ -68,5 +68,6 @@ export default function CustomizedTables() {
         </TableBody>
       </Table>
     </TableContainer>
+    </>
   );
 }
