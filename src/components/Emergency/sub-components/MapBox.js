@@ -1,21 +1,17 @@
 import React, { Component } from 'react';
-import Hero from '../../assets/img/hero.png'; 
-import './style.css';
+import Rectangle from '../../../assets/img/Rectangle.png';
 
-class TempLanding extends Component{
+class MapBox extends Component{
     render() {
         return(
             <div className = "row">
                 <div className = "col-md-6">
-                    <img src = { Hero } alt = { Hero } className = "img-fluid" style = {{ width: '600px',
-height: '550px', paddingLeft: '100px', paddingTop: '60px' }}/>
+                    <img src = { Rectangle } alt = { Rectangle } className = "img-fluid" style = {{ paddingLeft: '60px', paddingTop: '40px', margin: '40px', width: '504px', height: '495px'}}/>
                 </div>
-                <div className = "col-md-6" style = {{ paddingTop: '60px' }}>
+                <div className = "col-md-6" style = {{ paddingTop: '60px',paddingBottom: '60px'  }}>
+                <h2 style = {{ paddingTop: '60px', paddingLeft: '20px' }}><b>Services near you</b></h2>
                     <div className = "card" style = {{ width: '70%', marginLeft: '30px' }}>
-                        <h2 style = {{ paddingTop: '60px', paddingLeft: '20px' }}><b>All round healthcare information for everyone</b></h2>
-                        <p className = "text-muted" style = {{ paddingLeft: '20px' }}>
-                            With the use of digital diagnostic equipments and systems we provide international<br/>standard emergency and multidisciplinary comprehensive care
-                        </p>
+                        
                         <form style = {{ paddingLeft: '20px', paddingBottom: '20px' }}>
                             <div className = "mb-3">
                                 <input type = "text" className = "form-control" placeholder = "Location | Search Our Area"/>
@@ -32,4 +28,4 @@ height: '550px', paddingLeft: '100px', paddingTop: '60px' }}/>
     }
 }
 
-export default TempLanding;
+export default MapBox;
