@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import logo from '../../assets/img/logo.png';
+import logo from '../../../assets/img/logo.png';
 import SearchIcon from '@material-ui/icons/Search';
 
-class NewNav extends Component{
+class NavView extends Component{
     render() {
         return(
             <>
@@ -16,25 +16,25 @@ class NewNav extends Component{
                         </button>
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item active" >
-      <a class="nav-link" href="react" style={{fontWeight:'bold',fontSize:'12px'}}>Hospitals</a>
+                            <li class="nav-item active" style={{marginLeft:'100px'}}>
+      <a class="nav-link" href="#" style={{fontWeight:'bold',fontSize:'14px'}}>Hospitals</a>
       </li>
-      <li class="nav-item" >
-      <a class="nav-link" href="#" style={{fontWeight:'bold',fontSize:'12px'}}>Consultance</a> 
+      <li class="nav-item" style={{marginLeft:'10px'}}>
+      <a class="nav-link" href="#" style={{fontWeight:'bold',fontSize:'14px'}}>Consultance</a> 
       </li>
-      <li class="nav-item" >
+      <li class="nav-item" style={{marginLeft:'10px'}}>
      
-      <a class="nav-link" href="#" style={{fontWeight:'bold',fontSize:'12px'}}>Blood Banks</a> 
+      <a class="nav-link" href="#" style={{fontWeight:'bold',fontSize:'14px'}}>Blood Banks</a> 
     
       </li>
-      <li class="nav-item" >
-      <a class="nav-link" href="#" style={{fontWeight:'bold',fontSize:'12px'}}>Diagnostics</a> 
+      <li class="nav-item" style={{marginLeft:'10px'}}>
+      <a class="nav-link" href="#" style={{fontWeight:'bold',fontSize:'14px'}}>Diagnostics</a> 
       </li>
-      <li class="nav-item" >
-      <a class="nav-link" href="#" style={{fontWeight:'bold',fontSize:'12px'}}>Ambulance</a> 
+      <li class="nav-item" style={{marginLeft:'10px'}}>
+      <a class="nav-link" href="#" style={{fontWeight:'bold',fontSize:'14px'}}>Ambulance</a> 
       </li>
-      <li class="nav-item" >
-      <a class="nav-link" href="#" style={{fontWeight:'bold',fontSize:'12px'}}>Emergency</a> 
+      <li class="nav-item" style={{marginLeft:'10px'}}>
+      <a class="nav-link" href="#" style={{fontWeight:'bold',fontSize:'14px'}}>Emergency</a> 
       </li>
 
                             </ul>
@@ -57,4 +57,4 @@ marginLeft:'220px'}}
     }
 }
 
-export default NewNav;
+export default NavView;
