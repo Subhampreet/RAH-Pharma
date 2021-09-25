@@ -2,10 +2,11 @@ import React, { Component } from 'react';
 import Nav from './sub-components/NavView';
 import "./styles.css";
 import AdComponent from './sub-components/AdComponent';
-import FooterComponent from '../sub-components/FooterComponent';
 import MapBox from './sub-components/MapBox';
 import Table from './sub-components/Table';
 import SearchBar from './sub-components/SearchBar';
+import Footer from './sub-components/Footer';
+
 
 
 class EmergencyComponent extends Component{
@@ -17,7 +18,7 @@ class EmergencyComponent extends Component{
                 <MapBox/>
                 {/* <Table/> */}
                 <AdComponent/>
-                {/* <FooterComponent/>     */}
+                <Footer />
             </>
         );
     }
