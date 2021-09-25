@@ -14,8 +14,8 @@ class EmergencyComponent extends Component{
             <>
                 <Nav/>
                 <SearchBar/>
-                {/* <MapBox/>
-                <Table/>
+                <MapBox/>
+                {/* <Table/>
                 <AdComponent/>
                 <FooterComponent/>     */}
             </>
