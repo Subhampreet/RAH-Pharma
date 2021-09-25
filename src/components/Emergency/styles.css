@@ -216,8 +216,7 @@ color: #FFFFFF;
 
 .SearchBar .body .search-body .search-button{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
     padding: 12px 16px;
     width: 95px;
     height: 44px;
@@ -231,6 +230,10 @@ color: #FFFFFF;
     font-size: 13px;
     font-feature-settings: 'salt' on, 'liga' off;
     color: #FFFFFF;
+}
+
+.SearchBar .body .search-body .search-button .search-icon{
+    font-size: 18px;
 }
 
 

@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import banner from '../../../assets/img/banner.png';
 import "../styles.css";
-import Typography from '@material-ui/core/Typography';
-import search from '../../../assets/img/Group 7289.png';
+import SearchIcon from '@material-ui/icons/Search';
 
 
 function SearchBar() {
@@ -39,7 +38,7 @@ function SearchBar() {
 
                     <div className="search-button">
                         <h4>Search</h4>
-                        <img />
+                        <SearchIcon className="search-icon" />
                     </div>
                 </div>
 

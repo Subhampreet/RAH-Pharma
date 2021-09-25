@@ -16,26 +16,26 @@ class NavView extends Component{
                         </button>
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item active" style={{marginLeft:'100px'}}>
-      <a class="nav-link" href="#" style={{fontWeight:'bold',fontSize:'14px'}}>Hospitals</a>
-      </li>
-      <li class="nav-item" style={{marginLeft:'10px'}}>
-      <a class="nav-link" href="#" style={{fontWeight:'bold',fontSize:'14px'}}>Consultance</a> 
-      </li>
-      <li class="nav-item" style={{marginLeft:'10px'}}>
-     
-      <a class="nav-link" href="#" style={{fontWeight:'bold',fontSize:'14px'}}>Blood Banks</a> 
-    
-      </li>
-      <li class="nav-item" style={{marginLeft:'10px'}}>
-      <a class="nav-link" href="#" style={{fontWeight:'bold',fontSize:'14px'}}>Diagnostics</a> 
-      </li>
-      <li class="nav-item" style={{marginLeft:'10px'}}>
-      <a class="nav-link" href="#" style={{fontWeight:'bold',fontSize:'14px'}}>Ambulance</a> 
-      </li>
-      <li class="nav-item" style={{marginLeft:'10px'}}>
-      <a class="nav-link" href="#" style={{fontWeight:'bold',fontSize:'14px'}}>Emergency</a> 
-      </li>
+                                <li class="nav-item active" style={{marginLeft:'100px'}}>
+                                <a class="nav-link" href="#" style={{fontWeight:'bold',fontSize:'14px'}}>Hospitals</a>
+                                </li>
+                                <li class="nav-item" style={{marginLeft:'10px'}}>
+                                <a class="nav-link" href="#" style={{fontWeight:'bold',fontSize:'14px'}}>Consultance</a> 
+                                </li>
+                                <li class="nav-item" style={{marginLeft:'10px'}}>
+                                
+                                <a class="nav-link" href="#" style={{fontWeight:'bold',fontSize:'14px'}}>Blood Banks</a> 
+                                
+                                </li>
+                                <li class="nav-item" style={{marginLeft:'10px'}}>
+                                <a class="nav-link" href="#" style={{fontWeight:'bold',fontSize:'14px'}}>Diagnostics</a> 
+                                </li>
+                                <li class="nav-item" style={{marginLeft:'10px'}}>
+                                <a class="nav-link" href="#" style={{fontWeight:'bold',fontSize:'14px'}}>Ambulance</a> 
+                                </li>
+                                <li class="nav-item" style={{marginLeft:'10px'}}>
+                                <a class="nav-link" href="#" style={{fontWeight:'bold',fontSize:'14px'}}>Emergency</a> 
+                                </li>
 
                             </ul>
                             <form className="d-flex">
