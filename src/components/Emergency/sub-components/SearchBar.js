@@ -8,6 +8,7 @@ import search from '../../../assets/img/Group 7289.png';
 function SearchBar() {
     return (
         <div className="SearchBar">
+            Hello
             {/* <header>
             <div className = "head-text">
                 <a className="banner" href="#">
@@ -25,7 +26,7 @@ function SearchBar() {
             </div>
             </header> */}
 
-            
+
         </div>
     )
 }
