@@ -14,10 +14,10 @@ class EmergencyComponent extends Component{
             <>
                 <Nav/>
                 <SearchBar/>
-                <MapBox/>
+                {/* <MapBox/>
                 <Table/>
                 <AdComponent/>
-                <FooterComponent/>    
+                <FooterComponent/>     */}
             </>
         );
     }
