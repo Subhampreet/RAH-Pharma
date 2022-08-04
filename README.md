@@ -1,5 +1,7 @@
 <h1 align="center">RAH Pharma Project</h1>
 
+![image](https://user-images.githubusercontent.com/61475220/182894333-e53b4a58-9a8f-4749-8edb-4cd30af5f6f0.png)
+
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
